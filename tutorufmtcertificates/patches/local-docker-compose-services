@@ -1,4 +1,6 @@
-mysql:
-    ports: 
-        - "{{MYSQL_PORT}}:3306"
+version: "3"
+services:
+    mysql:
+        ports: 
+            - "{{MYSQL_PORT}}:3306"
   

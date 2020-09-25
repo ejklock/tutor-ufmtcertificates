@@ -1,0 +1,5 @@
+ufmtcertificates-job:
+    image: {{ DOCKER_IMAGE_MYSQL }}
+    entrypoint: []
+    command: ["echo", "done"]
+    depends_on: {{ [("mysql", ACTIVATE_MYSQL)]|list_if }}

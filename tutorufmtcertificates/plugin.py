@@ -17,11 +17,13 @@ config = {
 hooks = {
     "init": ["ufmtcertificates"]
 }
+patches={
+   
+}
 
 def patches():
     all_patches = {
-        "local-docker-compose-services":""mysql:
-        ports: "3306:3306""
+        
     }
     for path in glob(os.path.join(HERE, "patches", "*")):
         with open(path) as patch_file:

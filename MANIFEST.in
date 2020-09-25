@@ -1,0 +1,2 @@
+recursive-include tutorufmtcertificates/patches *
+recursive-include tutorufmtcertificates/templates *
